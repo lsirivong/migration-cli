@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+const usageParams = require('../built/bin/usageParams');
 const run = require('../built/bin/cli').default;
 
-run();
+run(usageParams);
